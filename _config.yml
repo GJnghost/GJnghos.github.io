@@ -1,5 +1,5 @@
 # Site settings
-title: GJ Blog
+title: GJnghost Blog
 SEOTitle: 深葉的博客 | GJ Blog
 header-img: img/Mostima_one.jpg
 email: 1766933911@qq.com
@@ -78,7 +78,7 @@ ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
 ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: auto             # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -99,8 +99,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "Culaccino",
+        href: "https://bbboundary.github.io/"
     },{
         title: "简书·BY",
         href: "http://www.jianshu.com/u/e71990ada2fd"
