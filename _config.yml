@@ -1,7 +1,7 @@
 # Site settings
 title: GJnghost
 SEOTitle: 深葉的博客 | GJ Blog
-header-img: img/Ifrit_one.jpg
+header-img: img/Mostima_one.png
 email: 1766933911@qq.com
 description: "No can, but will."
 keyword: "GJ, GJ Blog, 深葉的博客, GJnghost, Gghost, iOS, Apple, iPhone"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/GJnghost/GJnghost.github.io.git" # you code rep
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "better late than never."
-sidebar-avatar: /img/Lappland_one.jpg     #about-BY-gentle # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/Lappland_one.png     #about-BY-gentle # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
