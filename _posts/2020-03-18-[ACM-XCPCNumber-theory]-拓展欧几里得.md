@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      【ACM-XCPC|Number theory】拓展欧几里得
+title:      【ACM-XCPC | Number theory】拓展欧几里得
 subtitle:   前路漫漫的数论之🦌
 date:       2020-03-18
 author:     GJ
@@ -19,7 +19,7 @@ tags:
 
 **相关公式**:	gcd(a, b) = gcd(b, a%b)
 
-```
+```c++
 ll gcd(ll a,ll b){
     return b?gcd(b,a%b):a;
 }
@@ -51,7 +51,7 @@ ll gcd(ll a,ll b){
 
 ##### Code：
 
-```JavaScript
+```c++
 ll ex_gcd(ll a,ll b,ll& x,ll& y){
     if(b==0){
         x=1;
@@ -77,7 +77,7 @@ ll ex_gcd(ll a,ll b,ll& d,ll& x,ll& y){
 
 ## 应用
 
-#### 求解逆元
+#### 一、求解逆元
 
 逆元，即 a<sup>-1</sup> 
 
@@ -101,7 +101,6 @@ a在模数p意义下**逆元存在的充要条件：gcd(a, p) = 1 **，即a与p�
 #define O_O ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 
 using namespace std;
-
 typedef long long ll;
 
 ll ex_gcd(ll a, ll b, ll& x, ll& y) {
@@ -137,7 +136,6 @@ int main() {
 #define O_O ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 
 using namespace std;
-
 typedef long long ll;
 ll x, y;
 
