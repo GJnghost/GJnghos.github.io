@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      [ACM-XCPC|Number theory] 拓展欧几里得
+title:      【ACM-XCPC|Number theory】拓展欧几里得
 subtitle:   前路漫漫的数论之路🦌
 date:       2020-03-18
 author:     GJ
@@ -15,7 +15,7 @@ tags:
 
 扩展欧几里得的前置技能，即**辗转相除法**求gcd
 
-**相关定理**:	gcd(a, b) = gcd(b, a) = gcd(-a, b) = gcd(|a|, |b|)
+**相关定理**:	gcd(a, b) = gcd(b, a) = gcd(-a, b) = gcd($|a|$, $|b|$)
 
 **相关公式**:	gcd(a, b) = gcd(b, a%b)
 
@@ -25,7 +25,7 @@ ll gcd(ll a,ll b){
 }
 ```
 
-
+---
 
 ## 扩展欧几里得
 
@@ -73,7 +73,7 @@ ll ex_gcd(ll a,ll b,ll& d,ll& x,ll& y){
 }
 ```
 
-
+---
 
 ## 应用
 
