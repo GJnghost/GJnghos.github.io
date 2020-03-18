@@ -15,11 +15,11 @@ tags:
 
 扩展欧几里得的前置技能，即**辗转相除法**求gcd
 
-**相关定理**:	gcd(a, b) = gcd(b, a) = gcd(-a, b) = gcd($|a|$, $|b|$)
+**相关定理**:	gcd(a, b) = gcd(b, a) = gcd(-a, b) = `gcd(|a|, |b|)` `//绝对值不太会敲emm`
 
 **相关公式**:	gcd(a, b) = gcd(b, a%b)
 
-```c++
+```
 ll gcd(ll a,ll b){
     return b?gcd(b,a%b):a;
 }
@@ -51,7 +51,7 @@ ll gcd(ll a,ll b){
 
 ##### Code：
 
-```c++
+```JavaScript
 ll ex_gcd(ll a,ll b,ll& x,ll& y){
     if(b==0){
         x=1;
@@ -97,8 +97,11 @@ a在模数p意义下**逆元存在的充要条件：gcd(a, p) = 1 **，即a与p�
 
 ```c++
 #include<bits/stdc++.h>
+
 #define O_O ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+
 using namespace std;
+
 typedef long long ll;
 
 ll ex_gcd(ll a, ll b, ll& x, ll& y) {
@@ -130,8 +133,11 @@ int main() {
 
 ```c++
 #include<bits/stdc++.h>
+
 #define O_O ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+
 using namespace std;
+
 typedef long long ll;
 ll x, y;
 
