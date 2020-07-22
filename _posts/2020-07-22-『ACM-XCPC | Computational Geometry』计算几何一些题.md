@@ -23,17 +23,17 @@ This problem is same as the next one, but has smaller constraints.
 
 It was a Sunday morning when the three friends Selena, Shiro and Katie decided to have a trip to the nearby power station (do not try this at home). After arriving at the power station, the cats got impressed with a large power transmission system consisting of many chimneys, electric poles, and wires. Since they are cats, they found those things gigantic.
 
-At the entrance of the station, there is a map describing the complicated wiring system. Selena is the best at math among three friends. He decided to draw the map on the Cartesian plane. Each pole is now a point at some coordinates (xi,yi). Since every pole is different, all of the points representing these poles are distinct. Also, every two poles are connected with each other by wires. A wire is a straight line on the plane infinite in both directions. If there are more than two poles lying on the same line, they are connected by a single common wire.
+At the entrance of the station, there is a map describing the complicated wiring system. Selena is the best at math among three friends. He decided to draw the map on the Cartesian plane. Each pole is now a point at some coordinates **(xi,yi)**. Since every pole is different, all of the points representing these poles are distinct. Also, every two poles are connected with each other by wires. A wire is a straight line on the plane infinite in both directions. If there are more than two poles lying on the same line, they are connected by a single common wire.
 
 Selena thinks, that whenever two different electric wires intersect, they may interfere with each other and cause damage. So he wonders, how many pairs are intersecting? Could you help him with this problem?
 
 **Input**
 
->  The first line contains a single integer n (2≤n≤1000) — the number of electric poles.
+>  The first line contains a single integer **n (2≤n≤1000)** — the number of electric poles.
 >
-> Each of the following n lines contains two integers xi, yi (−10<sup>4</sup>≤xi,yi≤10<sup>4</sup>)  — the coordinates of the poles.
+> Each of the following n lines contains two integers **xi, yi (−10<sup>4</sup>≤xi,yi≤10<sup>4</sup>)**  — the coordinates of the poles.
 >
-> It is guaranteed that all of these n points are distinct.
+> It is guaranteed that all of these **n** points are distinct.
 
 **Output**
 
@@ -137,7 +137,7 @@ If the given endpoint does not lie on the boundary of the wheat field, the probl
 
 **Input**
 
-> The input provides several test cases and the first line of the input contains a single integer $T (1≤T≤1000000)$ indicati>ng the number of cases.
+> The input provides several test cases and the first line of the input contains a single integer **T (1≤T≤1000000)** indicati>ng the number of cases.
 >
 > For each test case, eight integers  **x<sub>1</sub>,y<sub>1</sub>,x<sub>2</sub>,y<sub>2</sub>,x<sub>3</sub>,y<sub>3</sub>,p<sub>x</sub>** and  **p<sub>y</sub>** are given in a line, where **(x1,y1),(x2,y2)** and **(x3,y3)** describe the coordinates of vertices for the given triangle wheat field which are guaranteed to be not colinear, and **(p<sub>x</sub>,p<sub>y</sub>)** is the given endpont of the segment. All coordinates are integers in the range **[0,100000]**.
 
@@ -146,6 +146,7 @@ If the given endpoint does not lie on the boundary of the wheat field, the probl
 > For each test case, output the coordinate of the other endpoint of the division segment, or output the number `-1` if the problem, in this case, is invalid.
 >
 > Formally, if your answer is **a** and the jury's answer is **b**, then your answer will be considered correct if and only if `$\frac{|a−b|}{max(1,|b|)}≤10^{−6}$`.
+
 **Sample Input**
 
 ```
