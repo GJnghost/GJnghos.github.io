@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      『ACM-XCPC | Number theory』拓展欧几里得
+title:      『ACM-XCPC | Number Theory』拓展欧几里得
 subtitle:   前路漫漫的数论之🦌
 date:       2020-03-18
 author:     GJ
@@ -8,7 +8,7 @@ header-img: img/Others_five.jpg
 catalog: true
 tags:
     - ACM-XCPC
-    - Number theory
+    - Number Theory
 ---
 
 ## 欧几里得算法
