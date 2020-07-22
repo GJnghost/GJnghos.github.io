@@ -4,7 +4,7 @@ title:      『ACM-XCPC | Computational Geometry』计算几何一些题
 subtitle:   乱七八糟的题什么的
 date:       2020-07-22
 author:     GJ
-header-img: img/Others_four.jpg
+header-img: img/Texas_one.jpg
 catalog: true
 tags:
     - ACM-XCPC
