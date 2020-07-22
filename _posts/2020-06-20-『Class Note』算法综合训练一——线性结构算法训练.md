@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      算法综合训练一——线性结构算法训练
+title:      『Class Note』算法综合训练一——线性结构算法训练
 subtitle:   算法设计实训
 date:       2020-06-20
 author:     GJ
