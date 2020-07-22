@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      【Class Note】Web开发技术
+title:      『Class Note』Web开发技术
 subtitle:   网站设计课堂笔记qwq
 date:       2020-03-11
 author:     GJ
