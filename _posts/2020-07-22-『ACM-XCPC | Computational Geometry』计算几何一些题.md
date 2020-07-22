@@ -31,9 +31,9 @@ Selena thinks, that whenever two different electric wires intersect, they may in
 
 >  The first line contains a single integer n (2≤n≤1000) — the number of electric poles.
 >
-> Each of the following $n$ lines contains two integers xi, yi (−10<sup>4</sup>≤xi,yi≤10<sup>4</sup>)  — the coordinates of the poles.
+> Each of the following n lines contains two integers xi, yi (−10<sup>4</sup>≤xi,yi≤10<sup>4</sup>)  — the coordinates of the poles.
 >
-> It is guaranteed that all of these $n$ points are distinct.
+> It is guaranteed that all of these n points are distinct.
 
 **Output**
 
@@ -131,7 +131,7 @@ int main() {
 
 **Description**
 
-One day, ABC and DD found a triangular wheat field, and they decide to cut it into two pieces with the same area with a segment. Because of various reasons, one of the endpoints of the division line is fixed at $(px,py)$. Now you are asked to find the other endpoint of the segment.
+One day, ABC and DD found a triangular wheat field, and they decide to cut it into two pieces with the same area with a segment. Because of various reasons, one of the endpoints of the division line is fixed at **(px,py)**. Now you are asked to find the other endpoint of the segment.
 
 If the given endpoint does not lie on the boundary of the wheat field, the problem should be regarded as invalid. The other endpoint required should also locate on the boundary.
 
@@ -139,14 +139,13 @@ If the given endpoint does not lie on the boundary of the wheat field, the probl
 
 > The input provides several test cases and the first line of the input contains a single integer $T (1≤T≤1000000)$ indicati>ng the number of cases.
 >
-> For each test case, eight integers  $x_1,y_1,x_2,y_2,x_3,y_3,p_x$ and  $p_y$ are given in a line, where $(x1,y1),(x2,y2)$ and $(x3,y3)$ describe the coordinates of vertices for the given triangle wheat field which are guaranteed to be not colinear, and $(p_x,p_y)$ is the given endpont of the segment. All coordinates are integers in the range $[0,100000]$.
+> For each test case, eight integers  **x<sub>1</sub>,y<sub>1</sub>,x<sub>2</sub>,y<sub>2</sub>,x<sub>3</sub>,y<sub>3</sub>,p<sub>x</sub>** and  **p<sub>y</sub>** are given in a line, where **(x1,y1),(x2,y2)** and **(x3,y3)** describe the coordinates of vertices for the given triangle wheat field which are guaranteed to be not colinear, and **(p<sub>x</sub>,p<sub>y</sub>)** is the given endpont of the segment. All coordinates are integers in the range **[0,100000]**.
 
 **Output**
 
 > For each test case, output the coordinate of the other endpoint of the division segment, or output the number `-1` if the problem, in this case, is invalid.
 >
-> Formally, if your answer is $a$ and the jury's answer is $b$, then your answer will be considered correct if and only if `$\frac{|a−b|}{max(1,|b|)}≤10^{−6}$`.
-
+> Formally, if your answer is **a** and the jury's answer is **b**, then your answer will be considered correct if and only if `$\frac{|a−b|}{max(1,|b|)}≤10^{−6}$`.
 **Sample Input**
 
 ```
