@@ -4,7 +4,7 @@ title:      『ACM-XCPC | Computational Geometry』是计算几何的板子
 subtitle:   kkkkkkk自用的板子
 date:       2020-07-24
 author:     GJ
-header-img: img/Texas_One.jpg
+header-img: img/Texas_one.jpg
 catalog: true
 tags:
     - ACM-XCPC
