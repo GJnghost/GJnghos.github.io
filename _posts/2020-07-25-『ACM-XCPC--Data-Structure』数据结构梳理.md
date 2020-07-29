@@ -8,7 +8,7 @@ header-img: img/Others_four.jpg
 catalog: true
 tags:
     - ACM-XCPC
-	- Data Structure
+    - Data Structure
 ---
 
 ## STL
