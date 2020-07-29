@@ -8,7 +8,7 @@ header-img: img/Texas_one.jpg
 catalog: true
 tags:
     - ACM-XCPC
-	- Computational Geometry
+    - Computational Geometry
 ---
 
 ## 点与向量
