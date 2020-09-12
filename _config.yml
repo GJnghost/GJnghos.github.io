@@ -99,12 +99,12 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Culaccino",
+        title: "Culaccino[cp天下第一！]",
         href: "https://bbboundary.github.io/"
+    } ,{
+        title: "wuanran[是咕咕！]",
+        href: "https://www.cnblogs.com/wuanran/"
     } #,{
-  #      title: "简书·BY",
-  #      href: "http://www.jianshu.com/u/e71990ada2fd"
-  #  },{
   #      title: "Apple",
   #      href: "https://apple.com"
   #  },{
