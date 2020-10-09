@@ -75,7 +75,7 @@ tags:
 
  
 
-**<priority_queue>优先队列**
+**\<priority_queue>优先队列**
 
 - 升序队列：priority_queue <int,vector\<int>,greater\<int> > q;  
 
@@ -199,7 +199,7 @@ tags:
 - **复杂度**：**O(logN)**每次访问
 - 红黑树//对数据自动排序
 
-**<unordered_map>多重映射**
+**\<unordered_map>多重映射**
 
 - 每次访问**复杂度**：**$$O(1)$$**
 - 哈希表存储
@@ -271,7 +271,7 @@ struct node{
 
 
 
-**一维树状数组 **
+**一维树状数组**
 
 - 注意初始化d数组
 - **复杂度：$$O(logN)$$**
@@ -283,7 +283,7 @@ struct node{
 
 
 
-**二维树状数组 **
+**二维树状数组**
 
 > 板子来自[LUOGU P4514 上帝造题的七分钟](https://www.luogu.com.cn/problem/P4514)
 >
@@ -296,7 +296,7 @@ struct node{
 
 
 
-**N维树状数组 **
+**N维树状数组**
 
 - 更新**$$2^n$$**个点
 - 就再添上for就行啦，n重for
